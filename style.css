@@ -1,0 +1,51 @@
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+header {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 500;
+    height: 100px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    height: auto;
+    width: 70vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: solid 0.5px;
+    justify-content: space-between;
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+}
+
+.basket {
+    border: solid 0.5px;
+    width: 30vw;
+}
+
+.item {
+
+    margin-top: 20px;
+}
+
+.price {
+    box-shadow: 0px 1px 0px;
+}
